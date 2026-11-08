@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot des maints effets</title>
+    <link rel="icon" href="cards/back.png">
+    <script src="cards.js" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+        section {
+            display: flex;
+        }
+        button {
+            flex: 1;
+            margin: 5px;
+            background-color: transparent;
+            border: none;
+            padding: 0px;
+        }
+        img {
+            width: 100%;
+            transition: transform 0.2s ease;
+            border-radius: 10px;
+            color: white;
+        }
+        img:hover {
+            transform: scale(1.1);
+            position: relative;
+            z-index: 1000;
+        }
+        .card {
+            cursor: pointer;
+        }
+        body {
+            /*background-image: url(cards/.png);*/
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #melanger {
+            background-color: purple;
+            color: yellow;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            text-decoration: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1001;
+        }
+        #melanger:hover {
+            background-color: yellow;
+            color: purple;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body style="background-color: purple;">
+    <header style="margin-bottom: 20px;text-align: center;background-color: rgb(46, 0, 46);color: white;padding: 5px;border: 2px solid yellow;border-radius: 5px;">
+        <h1 style="-webkit-text-stroke: 0.5px yellow;color: purple;">Les Cartes du Tarot des maints effets</h1>
+        <p style="color: yellow;">Adapté pour Donjons et Dragons et Daggerheart</p>
+    </header>
+    <main>
+        <section>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+        </section>
+        <section>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+        </section>
+        <section>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+            <button class="card"><img src="cards/back.jpg" alt="Dos des Cartes"></button>
+        </section>
+    </main>
+    <footer>
+        <a href="" id="melanger">Mélanger</a>
+    </footer>
+</body>
+</html>
